@@ -1,12 +1,10 @@
-// a forma como fazemos o export não tem haver com desempenho
-// e sim com estilo de código (code style).
-// no mercado de trabalho a forma mais usada é a mostratada nesse exemplo.
+import './CampoTexto.css';
 
 const CampoTexto = () => {
     return (
-        <div>
+        <div className="campo-texto">
             <label>Label</label>
-            <input />
+            <input placeholder='Texto' />
         </div>
     )
 
